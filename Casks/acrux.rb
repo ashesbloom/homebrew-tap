@@ -1,8 +1,8 @@
 # The Homebrew cask: brew install --cask ashesbloom/tap/acrux. Each release (.github/workflows/release.yml) copies it
 # into ashesbloom/homebrew-tap with that release's version and the .dmg's sha256.
 cask "acrux" do
-  version "1.0.0"
-  sha256 "c0c6d263f5949260bb1ec27a5884f5ec1787611742a4d0896e389f6b93f94b99"
+  version "1.1.0"
+  sha256 "ebedc2c28f72c92a9345b0d2a1d0259b736b9c8799eae663ea0ec37800f423f8"
 
   url "https://github.com/ashesbloom/music-webpage/releases/download/v#{version}/ACRUX-#{version}-mac.dmg",
       verified: "github.com/ashesbloom/music-webpage/"
